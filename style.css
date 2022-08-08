@@ -1,0 +1,145 @@
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+table thead tr {
+  background-color: #064135;
+  color: #ffffff;
+  text-align: left;
+}
+table th {
+  padding: 12px 15px;
+}
+table td {
+  padding: 12px 15px;
+}
+
+table tr {
+  border-bottom: thin solid #009879;
+}
+
+header {
+  background-color: #c9d6df;
+  position: fixed;
+  display: flex;
+  width: 95%;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  gap: 25px;
+  padding: 25px 0;
+  display: flex;
+  gap: 50px;
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  transition: 0.5s;
+  padding-right: 50px;
+}
+
+.header-logo {
+  height: 80px;
+  padding: 13px 0;
+  display: flex;
+}
+
+main {
+  padding-top: 100px;
+  background-color: #f0f5f9;
+  padding-top: 250px;
+  padding-bottom: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#form{
+    display:   flex;
+    flex-direction: column;
+    
+}
+footer {
+  background-color: #c9d6df;
+  display: flex;
+  width: 95%;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+}
+
+footer {
+  background: #000;
+  height: 150px;
+  width: 100%;
+  font-family: sans-serif;
+  padding-top: 40px;
+  color: #e6e6e6;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 2;
+}
+
+.footer-content {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 2;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.socials i{
+    font-size: 30px;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: white;
+}
+.socials a:hover i {
+  color: rgb(0, 255, 255);
+}
+.footer-bottom {
+  background: black;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 16px;
+  line-height: 3;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
